@@ -126,7 +126,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "11. Klik Mulai ekspor.\n"
         "12. Tunggu beberapa detik, setelah itu Unduh file tersebut.\n\n"
         "Nahh, kemudian kamu kirim kedua file tadi ke bot ini, agar dicek untuk kedua file tersebut.. 😁\n\n\n"
-        'Creator: <a href="https://www.instagram.com/dimas.4a">Dimas</a>'
+        'Creator: <a href="https://www.instagram.com/dimas.4a">dimas.4a</a>'
     )
 
     await update.message.reply_text(
@@ -138,8 +138,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def report_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     pesan_report = (
         "Halooo, Kamu pasti mengalami masalah ya terhadap botnya, seperti masalah kamu dengan pasanganmu yang tidak kunjung selesai 😆, "
-        "kamu bisa menghubungi kreator dibawah ini untuk melaporkan masalah.\n\n"
-        'Report to: <a href="https://www.instagram.com/dimas.4a">Dimas</a>'
+        "kamu bisa menghubungi admin dibawah ini untuk melaporkan masalah.\n\n"
+        'Lapor ke admin: <a href="https://www.instagram.com/dimas.4a">dimm</a>'
     )
 
     await update.message.reply_text(
@@ -170,7 +170,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "12. Klik Mulai ekspor.\n"
         "13. Tunggu beberapa detik, setelah itu Unduh file tersebut.\n\n"
         "Nahh, kemudian kamu kirim kedua file tadi ke bot ini, untuk dicek kedua file tersebut.. 😁\n\n\n"
-        'Creator: <a href="https://www.instagram.com/dimas.4a">Dimas</a>'
+        'Creator: <a href="https://www.instagram.com/dimas.4a">dimas.4a</a>'
     )
 
     await update.message.reply_text(
