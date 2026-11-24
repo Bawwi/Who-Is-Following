@@ -22,7 +22,7 @@ def normalize_username(raw_name):
     return name if name else None
 
 def parse_followers(data):
-    """Membaca format followers_1.json (username berada di string_list_data -> value)"""
+    """baca format followers_1.json (username berada di string_list_data -> value)"""
     usernames = []
     seen = set()
     items = data if isinstance(data, list) else data.get("relationships_followers", [])
@@ -44,7 +44,7 @@ def parse_followers(data):
     return usernames
 
 def parse_following(data):
-    """Membaca format following.json terbaru dengan mempertahankan urutan asli"""
+    """baca format following.json terbaru dengan mempertahankan urutan asli"""
     usernames = []
     seen = set()
     items = data.get("relationships_following", []) if isinstance(data, dict) else data
