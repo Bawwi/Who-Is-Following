@@ -114,7 +114,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "• following.json\n\n\n"
         "Cara mendapatkan filenya:\n"
         "1. Buka Instagram dan masuk ke akun Anda.\n"
-        "2. Terus ke menu Pengaturan garis 3 dikanan atas.\n"
+        "2. Terus ke menu Pengaturan (Garis 3 dikanan atas).\n"
         "3. Pilih Akun Meta.\n"
         "4. Klik Informasi dan Izin Anda.\n"
         "5. Pilih Ekspor informasi Anda.\n"
